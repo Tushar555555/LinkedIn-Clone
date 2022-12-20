@@ -144,6 +144,9 @@ const Hero = styled.div`
         width: 100%;
         line-height: 2;
       }
+      @media(max-width: 425px){
+        font-weight: 600;
+      }
   }
   img {
     width: 700px;
@@ -190,6 +193,7 @@ const Google = styled.button`
   transition-duration: 167ms;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
+  border: 2px solid grey;
   &:hover {
     background-color: rgba(207, 207, 207, 0.25);
     color: rgba(0, 0, 0, 0.75);
