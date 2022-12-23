@@ -92,7 +92,7 @@ const FeedList = styled.div`
             max-width: 480px;
             text-align: center;
             outline: none;
-            border: 1px solid grey;
+            border: 0.5px solid grey;
         }
     }
 `
